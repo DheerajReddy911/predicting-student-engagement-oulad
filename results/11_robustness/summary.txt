@@ -1,0 +1,40 @@
+C1. Temporal vs random split (ensemble M3, same hyperparameters)
+ week  temporal_auc  random_auc  inflation  test_students_also_in_train
+    0         0.723       0.717     -0.006                         1383
+    2         0.730       0.735      0.005                         1220
+    4         0.757       0.771      0.014                         1184
+    6         0.773       0.787      0.014                         1104
+    8         0.801       0.809      0.009                         1047
+   10         0.811       0.821      0.010                         1012
+   12         0.812       0.833      0.021                          961
+
+C2. Test ROC-AUC per module (ensemble M3)
+week       0      2      4      6      8      10     12
+module                                                 
+AAA     0.635  0.620  0.689  0.699  0.731  0.757  0.753
+BBB     0.707  0.687  0.722  0.736  0.786  0.793  0.789
+CCC     0.699  0.713  0.735  0.749  0.770  0.781  0.781
+DDD     0.733  0.724  0.763  0.785  0.790  0.799  0.801
+EEE     0.736  0.771  0.781  0.813  0.827  0.842  0.842
+FFF     0.733  0.755  0.792  0.807  0.839  0.838  0.841
+GGG     0.629  0.670  0.686  0.720  0.746  0.805  0.805
+
+Test size per module (week 12):
+module    n  base_rate
+   AAA  335      0.245
+   BBB 1723      0.331
+   CCC 1781      0.430
+   DDD 1371      0.422
+   EEE  963      0.290
+   FFF 1722      0.351
+   GGG  673      0.340
+
+  seed run week 4 done
+  seed run week 8 done
+  seed run week 12 done
+C3. Test ROC-AUC over 5 random seeds (ensemble M3)
+        mean     std     min     max
+week                                
+4     0.7572  0.0003  0.7568  0.7577
+8     0.8004  0.0003  0.8001  0.8008
+12    0.8119  0.0007  0.8111  0.8127

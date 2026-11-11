@@ -1,0 +1,35 @@
+Reproducibility check: 24 of 26 outputs identical (tolerance 1e-06); largest numeric difference 3.00e-03
+
+OK       03_models/results.csv  max numeric diff 0.00e+00
+OK       04_summary/table1_ensemble_auc_week_by_group.csv  max numeric diff 0.00e+00
+OK       04_summary/table2_auc_gain_per_group.csv  max numeric diff 0.00e+00
+OK       04_summary/table3_m3_auc_week_by_algorithm.csv  max numeric diff 0.00e+00
+OK       04_summary/table4_m3_week12_all_metrics.csv  max numeric diff 0.00e+00
+OK       04_summary/table4_m3_week6_all_metrics.csv  max numeric diff 0.00e+00
+OK       04_summary/table5_best_per_week.csv  max numeric diff 0.00e+00
+OK       05_threshold/threshold_results.csv  max numeric diff 0.00e+00
+OK       06_importance/family_importance.csv  max numeric diff 0.00e+00
+OK       06_importance/feature_importance.csv  max numeric diff 0.00e+00
+OK       07_significance/auc_with_ci.csv  max numeric diff 0.00e+00
+OK       07_significance/delong_tests.csv  max numeric diff 0.00e+00
+OK       08_fairness/fairness_by_group.csv  max numeric diff 0.00e+00
+OK       08_fairness/fairness_gaps.csv  max numeric diff 0.00e+00
+OK       09_eda/table6_outcomes_by_module_presentation.csv  max numeric diff 0.00e+00
+OK       09_eda/table7_background_profile.csv  max numeric diff 0.00e+00
+OK       09_eda/table8_weekly_clicks_by_risk.csv  max numeric diff 0.00e+00
+OK       09_eda/table9_feature_descriptives_week12.csv  max numeric diff 0.00e+00
+DIFFERS  10_karalar/comparison.csv  max numeric diff 3.00e-03
+OK       11_robustness/auc_by_module.csv  max numeric diff 0.00e+00
+OK       11_robustness/seed_stability.csv  max numeric diff 0.00e+00
+OK       11_robustness/split_comparison.csv  max numeric diff 0.00e+00
+DIFFERS  12_fail_only/fail_only.csv  max numeric diff 8.00e-04
+OK       13_calibration/calibration.csv  max numeric diff 0.00e+00
+OK       13_calibration/calibration_bins.csv  max numeric diff 0.00e+00
+OK       03_models/test_predictions.pkl  max diff 5.05e-08
+
+Explanation of the two differences (checked 28 Oct 2026)
+- Run 1: steps 0-2 and 4 on the student's laptop; steps 3 and 5-13 in a cloud workspace with identical library versions. Run 2: everything on the student's laptop.
+- Saved test probabilities differ by at most 5e-8 between the two machines. This is floating-point arithmetic differing between CPUs, not a code or data difference. All tuned hyperparameters are identical in both runs.
+- 10_karalar/comparison.csv: only the "M3 features + Paper 1 hard-voting model" rows differ, by up to 0.003 AUC (e.g. week 12: 0.7559 vs 0.7551). Hard voting turns each member's probability into a 0/1 vote, so a 5e-8 change can flip borderline students. Conclusions unchanged.
+- 12_fail_only/fail_only.csv: one row (week 8, M3) differs by 0.0008 in a threshold metric; its AUC is identical to 4 decimals. Conclusions unchanged.
+- All main results (steps 3-9, 11, 13) are bit-for-bit identical.

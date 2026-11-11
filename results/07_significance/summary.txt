@@ -1,0 +1,23 @@
+Check: max |DeLong AUC - sklearn AUC| = 1.11e-16
+
+Family A_feature_groups: AUC difference (* = significant after Holm, p<0.05)
+comparison M1 vs M0 (ENS) M2 vs M1 (ENS) M3 vs M2 (ENS)
+week                                                   
+0                  0.059*         0.001*          0.003
+2                  0.079*          0.002          0.001
+4                  0.088*         0.005*         0.015*
+6                  0.096*         0.013*         0.017*
+8                  0.105*         0.024*         0.025*
+10                 0.113*         0.026*         0.027*
+12                 0.113*         0.025*         0.027*
+
+Family B_algorithms: AUC difference (* = significant after Holm, p<0.05)
+comparison ENS vs HGB (M3) ENS vs LR (M3) ENS vs RF (M3)
+week                                                    
+0                   0.003*         0.004*          0.01*
+2                   0.004*          0.002         0.013*
+4                   0.006*         0.008*         0.008*
+6                   0.004*         0.007*         0.009*
+8                   0.005*         0.009*          0.01*
+10                  0.003*         0.009*         0.006*
+12                   0.002         0.011*         0.008*

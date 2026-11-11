@@ -1,0 +1,45 @@
+Test ROC-AUC (2014J). K-feat = Paper 1 features mapped to OULAD; M3 = this thesis.
+features                       K-feat                                                           M3                                
+model    K-model (hard vote ET+RF+LR) Our model (soft vote LR+RF+HGB) K-model (hard vote ET+RF+LR) Our model (soft vote LR+RF+HGB)
+week                                                                                                                              
+0                               0.632                           0.663                        0.686                           0.723
+2                               0.621                           0.664                        0.690                           0.730
+4                               0.666                           0.684                        0.711                           0.757
+6                               0.684                           0.711                        0.726                           0.773
+8                               0.694                           0.724                        0.750                           0.800
+10                              0.717                           0.756                        0.753                           0.811
+12                              0.721                           0.761                        0.756                           0.812
+
+Recall / precision at default decision rule (0.5 / majority vote):
+features                       K-feat                                                           M3                                
+model    K-model (hard vote ET+RF+LR) Our model (soft vote LR+RF+HGB) K-model (hard vote ET+RF+LR) Our model (soft vote LR+RF+HGB)
+week                                                                                                                              
+0                               0.667                           0.599                        0.620                           0.648
+2                               0.567                           0.514                        0.614                           0.599
+4                               0.656                           0.522                        0.611                           0.585
+6                               0.653                           0.516                        0.604                           0.560
+8                               0.665                           0.532                        0.615                           0.590
+10                              0.709                           0.542                        0.584                           0.556
+12                              0.709                           0.538                        0.605                           0.582
+features                       K-feat                                                           M3                                
+model    K-model (hard vote ET+RF+LR) Our model (soft vote LR+RF+HGB) K-model (hard vote ET+RF+LR) Our model (soft vote LR+RF+HGB)
+week                                                                                                                              
+0                               0.584                           0.605                        0.636                           0.643
+2                               0.550                           0.562                        0.600                           0.620
+4                               0.556                           0.594                        0.636                           0.650
+6                               0.580                           0.615                        0.646                           0.673
+8                               0.572                           0.614                        0.680                           0.705
+10                              0.562                           0.630                        0.714                           0.743
+12                              0.557                           0.624                        0.674                           0.708
+
+Balanced accuracy at default decision rule (fair for hard voting, which has coarse scores):
+features                       K-feat                                                           M3                                
+model    K-model (hard vote ET+RF+LR) Our model (soft vote LR+RF+HGB) K-model (hard vote ET+RF+LR) Our model (soft vote LR+RF+HGB)
+week                                                                                                                              
+0                               0.620                           0.624                        0.650                           0.662
+2                               0.617                           0.614                        0.661                           0.668
+4                               0.648                           0.638                        0.685                           0.684
+6                               0.671                           0.652                        0.693                           0.691
+8                               0.677                           0.661                        0.716                           0.718
+10                              0.690                           0.677                        0.722                           0.721
+12                              0.694                           0.677                        0.719                           0.722

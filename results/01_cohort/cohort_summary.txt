@@ -1,0 +1,28 @@
+Cohort summary
+============================================================
+Enrolments: 32,593
+At-risk (Fail+Withdrawn): 17,208 (52.8%)
+
+Split:
+  test    11,260 enrolments, at-risk 51.5%, modules ['AAA', 'BBB', 'CCC', 'DDD', 'EEE', 'FFF', 'GGG']
+  train   21,333 enrolments, at-risk 53.5%, modules ['AAA', 'BBB', 'CCC', 'DDD', 'EEE', 'FFF', 'GGG']
+
+Withdrawn: 10,156; with an unregistration date: 10,063
+  left before day 0: 2,676
+  left by week  2: 4,466
+  left by week  4: 5,047
+  left by week  6: 5,561
+  left by week  8: 6,063
+  left by week 10: 6,516
+  left by week 12: 6,861
+Non-withdrawn with an unregistration date (data quirk): 9
+
+Students still enrolled at each checkpoint (these are the ones we predict for):
+ week   train n  train risk    test n   test risk
+    0    19,133       48.1%    10,363       47.3%
+    2    18,758       47.1%     9,361       41.7%
+    4    18,322       45.8%     9,216       40.8%
+    6    17,981       44.8%     9,043       39.7%
+    8    17,643       43.7%     8,879       38.5%
+   10    17,373       42.9%     8,696       37.2%
+   12    17,156       42.1%     8,568       36.3%

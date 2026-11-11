@@ -1,0 +1,13 @@
+week,family,n_features,auc_drop_mean,auc_drop_std
+4,Assignment submission,5,0.06945,0.00309
+4,Background (M0),10,0.06059,0.0018
+4,Activity regularity & recency,5,0.05036,0.00222
+4,Weekly click pattern,7,0.01137,0.00142
+4,Resource-type mix,10,0.01103,0.00135
+4,Total clicks,1,0.00134,0.00027
+12,Assignment submission,5,0.11137,0.00367
+12,Activity regularity & recency,5,0.04481,0.00277
+12,Background (M0),10,0.04071,0.00166
+12,Weekly click pattern,15,0.01701,0.00119
+12,Resource-type mix,10,0.00862,0.00075
+12,Total clicks,1,0.00047,0.00017

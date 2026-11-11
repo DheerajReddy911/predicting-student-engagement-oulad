@@ -1,0 +1,53 @@
+Week 4: AUC drop when a FAMILY of features is shuffled (test 2014J, ensemble M3)
+                       family  n_features  auc_drop_mean  auc_drop_std
+        Assignment submission           5         0.0694        0.0031
+              Background (M0)          10         0.0606        0.0018
+Activity regularity & recency           5         0.0504        0.0022
+         Weekly click pattern           7         0.0114        0.0014
+            Resource-type mix          10         0.0110        0.0013
+                 Total clicks           1         0.0013        0.0003
+
+Week 4: top 15 single features
+                 feature                        family  auc_drop_mean  auc_drop_std
+ share_due_not_submitted         Assignment submission         0.0258        0.0017
+             code_module               Background (M0)         0.0218        0.0018
+       highest_education               Background (M0)         0.0213        0.0013
+             active_days Activity regularity & recency         0.0196        0.0016
+         mean_days_early         Assignment submission         0.0155        0.0012
+                imd_band               Background (M0)         0.0060        0.0008
+     n_submitted_on_time         Assignment submission         0.0046        0.0006
+    num_of_prev_attempts               Background (M0)         0.0037        0.0004
+days_since_last_activity Activity regularity & recency         0.0026        0.0004
+             n_submitted         Assignment submission         0.0024        0.0003
+         weekly_click_cv Activity regularity & recency         0.0024        0.0008
+           clicks_week_3          Weekly click pattern         0.0021        0.0003
+                  region               Background (M0)         0.0020        0.0004
+           clicks_week_1          Weekly click pattern         0.0018        0.0004
+      share_weeks_active Activity regularity & recency         0.0017        0.0004
+
+Week 12: AUC drop when a FAMILY of features is shuffled (test 2014J, ensemble M3)
+                       family  n_features  auc_drop_mean  auc_drop_std
+        Assignment submission           5         0.1114        0.0037
+Activity regularity & recency           5         0.0448        0.0028
+              Background (M0)          10         0.0407        0.0017
+         Weekly click pattern          15         0.0170        0.0012
+            Resource-type mix          10         0.0086        0.0008
+                 Total clicks           1         0.0005        0.0002
+
+Week 12: top 15 single features
+                 feature                        family  auc_drop_mean  auc_drop_std
+ share_due_not_submitted         Assignment submission         0.0461        0.0018
+             code_module               Background (M0)         0.0211        0.0018
+         mean_days_early         Assignment submission         0.0153        0.0008
+       highest_education               Background (M0)         0.0110        0.0009
+     n_submitted_on_time         Assignment submission         0.0102        0.0016
+             active_days Activity regularity & recency         0.0052        0.0010
+days_since_last_activity Activity regularity & recency         0.0043        0.0005
+     clicks_last_2_weeks          Weekly click pattern         0.0033        0.0005
+       share_clicks_quiz             Resource-type mix         0.0033        0.0004
+                imd_band               Background (M0)         0.0026        0.0007
+    num_of_prev_attempts               Background (M0)         0.0024        0.0004
+         weekly_click_cv Activity regularity & recency         0.0021        0.0007
+           clicks_week_8          Weekly click pattern         0.0020        0.0006
+      share_weeks_active Activity regularity & recency         0.0016        0.0006
+           clicks_week_9          Weekly click pattern         0.0015        0.0004

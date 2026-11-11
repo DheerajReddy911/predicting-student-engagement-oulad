@@ -1,0 +1,85 @@
+week,feature,family,auc_drop_mean,auc_drop_std
+4,share_due_not_submitted,Assignment submission,0.02584,0.00173
+4,code_module,Background (M0),0.02178,0.0018
+4,highest_education,Background (M0),0.02132,0.00127
+4,active_days,Activity regularity & recency,0.01959,0.00162
+4,mean_days_early,Assignment submission,0.01545,0.00124
+4,imd_band,Background (M0),0.006,0.00081
+4,n_submitted_on_time,Assignment submission,0.00464,0.00058
+4,num_of_prev_attempts,Background (M0),0.00375,0.00041
+4,days_since_last_activity,Activity regularity & recency,0.00256,0.00038
+4,n_submitted,Assignment submission,0.00244,0.00028
+4,weekly_click_cv,Activity regularity & recency,0.00241,0.00081
+4,clicks_week_3,Weekly click pattern,0.00213,0.00031
+4,region,Background (M0),0.00203,0.00037
+4,clicks_week_1,Weekly click pattern,0.0018,0.00042
+4,share_weeks_active,Activity regularity & recency,0.00172,0.00044
+4,disability,Background (M0),0.00149,0.00021
+4,share_clicks_quiz,Resource-type mix,0.00135,0.0002
+4,total_clicks,Total clicks,0.00131,0.0003
+4,n_resource_types_used,Resource-type mix,0.00127,0.00036
+4,studied_credits,Background (M0),0.00105,0.00047
+4,prestart_clicks,Weekly click pattern,0.0009,0.0002
+4,n_assessments_due,Assignment submission,0.00088,0.00068
+4,date_registration,Background (M0),0.00084,0.00013
+4,share_clicks_oucontent,Resource-type mix,0.00084,0.00017
+4,share_clicks_resource,Resource-type mix,0.00084,0.00026
+4,share_clicks_other,Resource-type mix,0.00082,0.00048
+4,share_clicks_homepage,Resource-type mix,0.00079,0.00024
+4,clicks_week_0,Weekly click pattern,0.00041,0.00014
+4,share_clicks_url,Resource-type mix,0.00036,0.0002
+4,share_clicks_ouwiki,Resource-type mix,0.00036,0.00017
+4,gender,Background (M0),0.00035,0.00012
+4,share_clicks_subpage,Resource-type mix,0.0003,0.00024
+4,clicks_last_2_weeks,Weekly click pattern,0.00029,0.00014
+4,clicks_week_2,Weekly click pattern,0.00021,0.00022
+4,longest_gap_days,Activity regularity & recency,0.00012,0.00015
+4,weekly_click_trend,Weekly click pattern,7e-05,9e-05
+4,share_clicks_forumng,Resource-type mix,5e-05,0.00013
+4,age_band,Background (M0),1e-05,0.00024
+12,share_due_not_submitted,Assignment submission,0.04609,0.00182
+12,code_module,Background (M0),0.02107,0.00178
+12,mean_days_early,Assignment submission,0.01528,0.00084
+12,highest_education,Background (M0),0.01103,0.00085
+12,n_submitted_on_time,Assignment submission,0.0102,0.00161
+12,active_days,Activity regularity & recency,0.0052,0.00101
+12,days_since_last_activity,Activity regularity & recency,0.0043,0.00052
+12,clicks_last_2_weeks,Weekly click pattern,0.00332,0.00054
+12,share_clicks_quiz,Resource-type mix,0.0033,0.00041
+12,imd_band,Background (M0),0.0026,0.0007
+12,num_of_prev_attempts,Background (M0),0.00236,0.00042
+12,weekly_click_cv,Activity regularity & recency,0.00209,0.0007
+12,clicks_week_8,Weekly click pattern,0.00199,0.00059
+12,share_weeks_active,Activity regularity & recency,0.00165,0.00061
+12,clicks_week_9,Weekly click pattern,0.00151,0.0004
+12,n_assessments_due,Assignment submission,0.0009,0.00016
+12,region,Background (M0),0.00084,0.00031
+12,clicks_week_6,Weekly click pattern,0.00071,0.00015
+12,share_clicks_subpage,Resource-type mix,0.00066,0.00031
+12,share_clicks_oucontent,Resource-type mix,0.00062,0.00018
+12,clicks_week_10,Weekly click pattern,0.00058,0.00016
+12,longest_gap_days,Activity regularity & recency,0.00054,0.00028
+12,studied_credits,Background (M0),0.00051,0.00013
+12,share_clicks_resource,Resource-type mix,0.00046,0.00015
+12,clicks_week_5,Weekly click pattern,0.00039,0.00023
+12,disability,Background (M0),0.00037,6e-05
+12,total_clicks,Total clicks,0.00037,0.00013
+12,share_clicks_homepage,Resource-type mix,0.00036,0.00016
+12,date_registration,Background (M0),0.00031,0.00015
+12,clicks_week_11,Weekly click pattern,0.00029,0.00029
+12,share_clicks_other,Resource-type mix,0.00028,0.00035
+12,clicks_week_7,Weekly click pattern,0.00025,0.00013
+12,clicks_week_3,Weekly click pattern,0.00021,0.00018
+12,clicks_week_0,Weekly click pattern,0.00016,0.00012
+12,n_submitted,Assignment submission,0.00013,0.00013
+12,n_resource_types_used,Resource-type mix,9e-05,6e-05
+12,gender,Background (M0),8e-05,6e-05
+12,clicks_week_1,Weekly click pattern,5e-05,0.00013
+12,share_clicks_url,Resource-type mix,4e-05,0.0001
+12,share_clicks_forumng,Resource-type mix,1e-05,0.00012
+12,share_clicks_ouwiki,Resource-type mix,1e-05,0.00021
+12,prestart_clicks,Weekly click pattern,-1e-05,0.0001
+12,weekly_click_trend,Weekly click pattern,-0.00011,0.0004
+12,clicks_week_4,Weekly click pattern,-0.00021,0.00015
+12,age_band,Background (M0),-0.00025,0.00018
+12,clicks_week_2,Weekly click pattern,-0.00042,0.00022

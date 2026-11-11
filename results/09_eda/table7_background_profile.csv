@@ -1,0 +1,24 @@
+group,attribute,n,at_risk_rate,share
+F,gender,14718,0.516,0.452
+M,gender,17875,0.538,0.548
+0-35,age_band,22944,0.55,0.704
+35-55,age_band,9433,0.478,0.289
+55<=,age_band,216,0.384,0.007
+A Level or Equivalent,highest_education,14045,0.48,0.431
+HE Qualification,highest_education,4730,0.438,0.145
+Lower Than A Level,highest_education,13158,0.611,0.404
+No Formal quals,highest_education,347,0.703,0.011
+Post Graduate Qualification,highest_education,313,0.345,0.01
+N,disability,29429,0.518,0.903
+Y,disability,3164,0.619,0.097
+0-10%,imd_band,3311,0.648,0.102
+10-20,imd_band,3516,0.614,0.108
+20-30%,imd_band,3654,0.593,0.112
+30-40%,imd_band,3539,0.531,0.109
+40-50%,imd_band,3256,0.534,0.1
+50-60%,imd_band,3124,0.512,0.096
+60-70%,imd_band,2905,0.481,0.089
+70-80%,imd_band,2879,0.485,0.088
+80-90%,imd_band,2762,0.459,0.085
+90-100%,imd_band,2536,0.425,0.078
+missing,imd_band,1111,0.343,0.034

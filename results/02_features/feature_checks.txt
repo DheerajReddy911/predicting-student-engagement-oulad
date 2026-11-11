@@ -1,0 +1,66 @@
+Week 6: recomputed 5 features for 25 random enrolments from raw CSVs -> 0 mismatches
+
+Week 0: 29,496 rows. Missing values per column (non-zero only):
+  imd_band: 1,054
+  date_registration: 10
+  days_since_last_activity: 6,268
+  longest_gap_days: 11,321
+  share_clicks_oucontent: 6,268
+  share_clicks_forumng: 6,268
+  share_clicks_quiz: 6,268
+  share_clicks_homepage: 6,268
+  share_clicks_subpage: 6,268
+  share_clicks_resource: 6,268
+  share_clicks_ouwiki: 6,268
+  share_clicks_url: 6,268
+  share_clicks_other: 6,268
+  mean_days_early: 29,496
+  share_due_not_submitted: 29,496
+  n_submitted > n_assessments_due: 0
+
+Week 6: 27,024 rows. Missing values per column (non-zero only):
+  imd_band: 1,014
+  date_registration: 7
+  days_since_last_activity: 718
+  longest_gap_days: 1,303
+  weekly_click_cv: 939
+  share_clicks_oucontent: 718
+  share_clicks_forumng: 718
+  share_clicks_quiz: 718
+  share_clicks_homepage: 718
+  share_clicks_subpage: 718
+  share_clicks_resource: 718
+  share_clicks_ouwiki: 718
+  share_clicks_url: 718
+  share_clicks_other: 718
+  mean_days_early: 4,409
+  share_due_not_submitted: 2,426
+  n_submitted > n_assessments_due: 0
+
+Week 12: 25,724 rows. Missing values per column (non-zero only):
+  imd_band: 976
+  date_registration: 7
+  days_since_last_activity: 510
+  longest_gap_days: 881
+  weekly_click_cv: 657
+  share_clicks_oucontent: 510
+  share_clicks_forumng: 510
+  share_clicks_quiz: 510
+  share_clicks_homepage: 510
+  share_clicks_subpage: 510
+  share_clicks_resource: 510
+  share_clicks_ouwiki: 510
+  share_clicks_url: 510
+  share_clicks_other: 510
+  mean_days_early: 1,782
+  n_submitted > n_assessments_due: 0
+
+Week 6 medians, at-risk vs not:
+at_risk                       0           1
+total_clicks              384.0  187.000000
+active_days                21.0   12.000000
+days_since_last_activity    2.0    4.000000
+longest_gap_days            8.0   10.000000
+share_weeks_active          1.0    0.833333
+n_submitted                 1.0    1.000000
+mean_days_early             1.0    0.000000
